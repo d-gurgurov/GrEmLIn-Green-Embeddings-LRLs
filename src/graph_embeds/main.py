@@ -8,7 +8,7 @@ emb_type="all"
 def main():
     # processing ConceptNet data, building PPMI embeddings, and saving as txt
     if emb_type=="all":
-        ppmi_generator = PPMIGenerator(language=lang, ppmi_dim=300)
+        ppmi_generator = PPMIGenerator(language="all", ppmi_dim=300)
         fetched_data = ppmi_generator.read_from_json('/ds/text/ConceptNet/cn_data/cn_relations_clean.json')
         print('Data ready!')
         fetched_data = ppmi_generator.process_conceptnet_data(fetched_data)
