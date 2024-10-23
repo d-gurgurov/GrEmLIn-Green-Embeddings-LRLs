@@ -106,7 +106,7 @@ The dataset, as well as details on the amount of extracted data for each languag
 
 ## Usage
 
-If you use our embedding enhancement method or pre-trained embeddings, please consider citing our paper:
+If you use our embedding enhancement method or pre-trained embeddings, please consider citing our preview paper:
 
 ```bibtex
 @misc{gurgurov2024lowremrepositorywordembeddings,
@@ -119,6 +119,8 @@ If you use our embedding enhancement method or pre-trained embeddings, please co
       url={https://arxiv.org/abs/2409.18193}, 
 }
 ```
+
+The long paper with the extended experimental results will be published soon!
 
 ## License
 
