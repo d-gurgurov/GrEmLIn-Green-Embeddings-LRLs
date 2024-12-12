@@ -109,8 +109,8 @@ The dataset, as well as details on the amount of extracted data for each languag
 If you use our embedding enhancement method or pre-trained embeddings, please consider citing our preview paper (the full paper is to be published soon):
 
 ```bibtex
-@misc{gurgurov2024lowremrepositorywordembeddings,
-      title={LowREm: A Repository of Word Embeddings for 87 Low-Resource Languages Enhanced with Multilingual Graph Knowledge}, 
+@misc{gurgurov2024gremlinrepositorygreenbaseline,
+      title={GrEmLIn: A Repository of Green Baseline Embeddings for 87 Low-Resource Languages Injected with Multilingual Graph Knowledge}, 
       author={Daniil Gurgurov and Rishu Kumar and Simon Ostermann},
       year={2024},
       eprint={2409.18193},
