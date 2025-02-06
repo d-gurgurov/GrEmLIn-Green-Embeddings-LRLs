@@ -25,6 +25,23 @@
     </a>
 </p>
 
+
+<h3 align="center">
+    <a href="https://www.dfki.de/web/forschung/forschungsbereiche/sprachtechnologie-und-multilingualitaet">
+        <img style="padding: 5px;" width="220" height="100" src="assets/dfki.jpg" alt="dfki"/>
+    </a>
+    <a href="https://www.uni-saarland.de/en/department/lst.html">
+        <img style="padding: 5px;" width="320" height="100" src="assets/lst.png" alt="lst"/>
+    </a>
+</h3>
+
+<h3 align="center">
+    <a href="https://www.certain-trust.eu/">
+        <img style="padding: 5px;" width="250" height="90" src="assets/certain.png" alt="certain"/>
+    </a>
+</h3>
+
+
 # GrEmLIn: A Repository of Green Baseline Embeddings for 87 Low-Resource Languages Injected with Multilingual Graph Knowledge
 
 This project augments GloVe embeddings for mid- and low-resource languages with graph knowledge from ConceptNet, as well as provides a centralized repository with pre-trained static "green" word embeddings across diverse languages. These embeddings are available for the languages described in the following table and can be enhanced with graph embeddings stored [here](https://huggingface.co/DGurgurov/conceptnet_embeddings) using the algorithm provided in this repository ([merge_emb-s.py](https://github.com/d-gurgurov/GrEmLIn-Green-Embeddings-LRLs/blob/main/src/utils/merge_emb-s.py)). The embeddings can be accessed on [HuggingFace](https://huggingface.co/DFKI). 
