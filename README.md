@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="https://github.com/d-gurgurov/GrEmLIn-Green-Embeddings-LRLs/blob/main/assets/1F9CC_color.pdf?raw=true" alt="GrEmLIn Logo" width="30"/>
   <strong style="color: olive; font-family: 'Courier New', monospace;">GrEmLIn</strong>
-</hq>
+</h1>
 
 # GrEmLIn: A Repository of Green Baseline Embeddings for 87 Low-Resource Languages Injected with Multilingual Graph Knowledge
 
