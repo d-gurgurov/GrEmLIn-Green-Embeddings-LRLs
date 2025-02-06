@@ -2,6 +2,29 @@
   <img src="assets/logo.png" width="250"/>
 </h1>
 
+<p align="center">
+    <!-- ArXiv Paper -->
+    <a href="https://arxiv.org/abs/2409.18193">
+        <img alt="ArXiv Paper" src="https://img.shields.io/badge/arXiv-2409.18193-b31b1b.svg">
+    </a>
+    <!-- Hugging Face -->
+    <a href="https://huggingface.co/DFKI">
+        <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-Models-yellow.svg?logo=huggingface">
+    </a>
+    <!-- Python Version -->
+      <a href="https://www.python.org/">
+      <img alt="Python Version" src="https://img.shields.io/badge/Python-3.6–3.9-blue.svg?logo=python">
+      </a>
+    <!-- License -->
+    <a href="https://github.com/d-gurgurov/GrEmLIn-Green-Embeddings-LRLs/blob/main/LICENSE">
+        <img alt="License" src="https://img.shields.io/github/license/d-gurgurov/GrEmLIn-Green-Embeddings-LRLs?logo=github&color=green">
+    </a>
+    <!-- Open Source -->
+    <a href="https://github.com/d-gurgurov/GrEmLIn-Green-Embeddings-LRLs/">
+        <img alt="Open Source" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
+    </a>
+</p>
+
 # GrEmLIn: A Repository of Green Baseline Embeddings for 87 Low-Resource Languages Injected with Multilingual Graph Knowledge
 
 This project augments GloVe embeddings for mid- and low-resource languages with graph knowledge from ConceptNet, as well as provides a centralized repository with pre-trained static "green" word embeddings across diverse languages. These embeddings are available for the languages described in the following table and can be enhanced with graph embeddings stored [here](https://huggingface.co/DGurgurov/conceptnet_embeddings) using the algorithm provided in this repository ([merge_emb-s.py](https://github.com/d-gurgurov/GrEmLIn-Green-Embeddings-LRLs/blob/main/src/utils/merge_emb-s.py)). The embeddings can be accessed on [HuggingFace](https://huggingface.co/DFKI). 
