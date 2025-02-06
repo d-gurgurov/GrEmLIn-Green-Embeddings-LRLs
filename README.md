@@ -28,17 +28,17 @@
 
 <h3 align="center">
     <a href="https://www.dfki.de/web/forschung/forschungsbereiche/sprachtechnologie-und-multilingualitaet">
-        <img style="padding: 5px;" width="220" height="100" src="assets/dfki.jpg" alt="dfki"/>
+        <img style="padding: 5px;" width="220" src="assets/dfki.jpg" alt="dfki"/>
     </a>
     <a href="https://www.uni-saarland.de/en/department/lst.html">
-        <img style="padding: 5px;" width="320" height="100" src="assets/lst.png" alt="lst"/>
+        <img style="padding: 5px;" width="280" src="assets/lst.png" alt="lst"/>
+    </a>
+    <a href="https://www.certain-trust.eu/">
+        <img style="padding: 5px;" width="250" src="assets/certain-bg.png" alt="certain"/>
     </a>
 </h3>
 
 <h3 align="center">
-    <a href="https://www.certain-trust.eu/">
-        <img style="padding: 5px;" width="250" height="90" src="assets/certain.png" alt="certain"/>
-    </a>
 </h3>
 
 
