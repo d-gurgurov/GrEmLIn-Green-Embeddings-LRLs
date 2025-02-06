@@ -62,6 +62,19 @@
    - **BERT embeddings**: 635 kg of CO2 (equivalent to a 1,600 km car trip)—**30 times more** than the emissions from GloVe embeddings.
    - **LLaMA-8B model**: 390,000 kg of CO2 (equivalent to the annual energy consumption of around 100 homes)—**20,473 times more** than that of GloVe embeddings.
 
+## Merging Embedding Spaces
+
+We propose a method for merging **GloVe embeddings** with **graph-based embeddings** derived from **ConceptNet knowledge**, while preserving the vocabulary size of GloVe. This overcomes the shortcoming of the **retrofitting approach**, where the retrofitted words must be present in both graph and corpus embeddings.
+
+### Methodology
+
+1. **Singular Value Decomposition**:
+   - We apply **SVD** (with no weighting of the U matrix by singular values, following Levy et al. 2015) to concatenate **GloVe embeddings** and **pointwise mutual information (PMI)**-based **graph embeddings** from ConceptNet (as proposed by Speer et al. 2017).
+   - The concatenated word embeddings from both GloVe and PMI-based graph embeddings are processed to generate a **shared embedding space** for the part of the vocabulary that is common between GloVe and the knowledge graph.
+   
+2. **Linear Transformation**:
+   - We then learn a **linear transformation** (as proposed by Mikolov et al. 2013) to project the **GloVe embeddings** into this shared space, allowing us to obtain embeddings for all words in the original **GloVe vocabulary**.
+
 
 ---
 
