@@ -1,6 +1,5 @@
 <h1 align="center">
-  <img style="vertical-align:middle" src="assets/1F9CC_color.png" width="40"/>
-  <strong style="color: olive; font-family: 'Courier New', monospace;">GrEmLIn</strong>
+  <img src="assets/logo.png" width="250"/>
 </h1>
 
 # GrEmLIn: A Repository of Green Baseline Embeddings for 87 Low-Resource Languages Injected with Multilingual Graph Knowledge
