@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/d-gurgurov/GrEmLIn-Green-Embeddings-LRLs/blob/main/assets/1F9CC_color.pdf?raw=true" alt="GrEmLIn Logo" width="30"/>
+  <img style="vertical-align:middle" src="assets/1F9CC_color.png" width="40"/>
   <strong style="color: olive; font-family: 'Courier New', monospace;">GrEmLIn</strong>
 </h1>
 
