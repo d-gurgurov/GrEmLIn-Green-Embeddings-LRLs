@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/1F9CC_color.pdf" alt="GrEmLIn Logo" width="30"/>
+  <strong style="color: olive; font-family: 'Courier New', monospace;">GrEmLIn</strong>
+</p>
+
 # GrEmLIn: A Repository of Green Baseline Embeddings for 87 Low-Resource Languages Injected with Multilingual Graph Knowledge
 
 This project augments GloVe embeddings for mid- and low-resource languages with graph knowledge from ConceptNet, as well as provides a centralized repository with pre-trained static "green" word embeddings across diverse languages. These embeddings are available for the languages described in the following table and can be enhanced with graph embeddings stored [here](https://huggingface.co/DGurgurov/conceptnet_embeddings) using the algorithm provided in this repository ([merge_emb-s.py](https://github.com/d-gurgurov/GrEmLIn-Green-Embeddings-LRLs/blob/main/src/utils/merge_emb-s.py)). The embeddings can be accessed on [HuggingFace](https://huggingface.co/DFKI). 
