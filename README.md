@@ -200,8 +200,63 @@ We propose a method for merging **GloVe embeddings** with **graph-based embeddin
 
 ---
 
-
 ## Usage
+
+The embeddings are available through our demo pip package:
+
+```bash
+pip install -i https://test.pypi.org/simple/ gremlin
+```
+
+### Download Embeddings
+
+Download embeddings for specific languages and types:
+
+```bash
+gremlin download -l <language_codes> -t <embedding_type> [-o <output_directory>]
+```
+
+#### Parameters:
+- `-l/--languages`: Language codes (e.g., en, fr, de)
+- `-t/--type`: Embedding type (glove or graph)
+- `-o/--output`: Output directory (optional, default: ./embeddings)
+
+#### Examples:
+```bash
+# Download GloVe embeddings for Yoruba and Swahili
+gremlin download -l yo sw -t glove
+
+# Download graph embeddings for Yoruba with custom output
+gremlin download -l yo -t graph -o ./german_embeddings
+```
+
+### Merge Embeddings
+
+Merge different embedding sources:
+
+```bash
+gremlin merge -g <glove_file> -p <graph_file> -o <output_file>
+```
+
+#### Parameters:
+- `-g/--glove`: Path to GloVe embeddings file
+- `-p/--graph`: Path to graph embeddings file
+- `-o/--output`: Output path for merged embeddings
+
+#### Example:
+```bash
+gremlin merge -g glove_yo.txt -p graph_yo.txt -o merged_yo.txt
+```
+
+### Extended Help
+
+For comprehensive instructions and usage examples:
+
+```bash
+gremlin --detailed-help
+```
+
+## Citation
 
 - If you use our **embedding enhancement method** or **pre-trained embeddings**, please consider citing our preview paper (the full paper is to be published in the **Findings of NAACL 2025**):
 
@@ -219,4 +274,4 @@ We propose a method for merging **GloVe embeddings** with **graph-based embeddin
 
 ## License
 
-This project is licensed under the Apache License - see the [LICENSE] file for details.
+This project is licensed under the Apache License - see the [LICENSE.txt] file for details.
