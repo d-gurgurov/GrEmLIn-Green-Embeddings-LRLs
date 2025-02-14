@@ -205,7 +205,7 @@ We propose a method for merging **GloVe embeddings** with **graph-based embeddin
 The embeddings are available through our demo pip package:
 
 ```bash
-pip install -i https://test.pypi.org/simple/ gremlin
+pip install gremlinn
 ```
 
 ### Download Embeddings
